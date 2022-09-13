@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    left: -10%;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: darkolivegreen;
+    opacity: 0.25;;
+}
+ul{
+    
+    margin-top: 5px;
+}
+li{
+    height: 0;
+    background-color: darkkhaki;
+    visibility: hidden;
+}
+h3{
+    height: 30px;
+    background-color: firebrick;
+}
+h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
